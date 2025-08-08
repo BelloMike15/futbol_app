@@ -1,0 +1,51 @@
+/* Estilo base */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Oculta el menú de Streamlit y el footer */
+header, footer, .stDeployButton {
+    visibility: hidden;
+}
+
+/* Formularios en tarjetas */
+div.stForm {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+/* Expanders personalizados */
+.st-expander {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #00c6ff;
+}
+
+/* Botones */
+button {
+    background-color: #1e3c72;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+button:hover {
+    background-color: #2a5298;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    background-color: rgba(255,255,255,0.05) !important;
+    border-radius: 12px;
+}
